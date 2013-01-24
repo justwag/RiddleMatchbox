@@ -1,0 +1,49 @@
+﻿body {
+    background-color: green;
+}
+
+#menu {
+    float: left;
+    background-color: blue;
+    border: 2px dotted grey;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 100%;
+}
+
+#menu li {
+    display: inline;
+    text-decoration: none;
+    color: purple;
+    font-size: 40px;
+    margin: 0 10% 0 10%;
+}
+
+#menu li:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+#riddleDisplay {
+    background-color: lightblue;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -8px;
+    width: 100%;
+    height: 100%;
+    clear: both;
+    float: left;
+
+}
+
+#riddle {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 10%;
+}
+
+#answerInputBox {
+    text-align: center;
+}

@@ -1,0 +1,3 @@
+﻿function changeAnswerType() {
+    $("#answerInputBox").
+}
